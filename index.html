@@ -4,14 +4,16 @@
 	<title>modest_responsive</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="grid.css">
 	<link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="header">
 		<div class="container">
-		<div class="flex header_row">
+		<div class="flex flex_column">
 			<div class="col-md-3">
 				<div class="logo"><a href="#"><img src="images/logo.png"></a></div></div>
 			<div class="col-md-6">
@@ -42,10 +44,12 @@
 			<div class="container">
 			</div>
 		</section>
-		<section class="we_are">
+		<section class="we_are block">
 			<div class="container">
+			<div class="block_title">
 			<h1>We are modest.</h1>
-			<div class="we_are_flex">
+			</div>
+			<div class="flex flex_column">
 				<div class="col-md-7">
 					<p>Et eu occaecat ut ea est voluptate dolore amet ut ea fugiat reprehenderit nostrud fugiat veniam. Irure sed laborum aute elit dolor pariatur anim elit duis ut incididunt ut eu dolor labore ut magna eiusmod. Sed occaecat exercitation ex magna adipisicing reprehenderit ea.</p>
 					<p>Et eu occaecat ut ea est voluptate dolore amet ut ea fugiat reprehenderit nostrud fugiat veniam. Irure sed laborum aute elit dolor pariatur anim elit duis ut incididunt ut eu dolor labore ut magna eiusmod. Ex fugiat mollit aliqua proident velit ut ut laborum amet amet irure minim laboris deserunt in fugiat elit mollit.</p>
@@ -86,11 +90,13 @@
 			</div>
 		</div>
 		</section>
-		<section class="team_block">
+		<section class="block">
 			<div class="container">
+				<div class="block_title">
 				<h1>Meet the team.</h1>
-				<div class="flex_team">
-					<div class="our_team">
+				</div>
+				<div class="flex flex_column">
+					<div class="col-md-3">
 						<div class="member_photo">
 							<img src="images/member1.png">
 							<div class="social_overlay_container">
@@ -107,7 +113,7 @@
 							<p>CEO and Founder</p>
 						</div>
 					</div>
-					<div class="our_team">
+					<div class="col-md-3">
 						<div class="member_photo">
 							<img src="images/member2.png">
 							<div class="social_overlay_container">
@@ -124,7 +130,7 @@
 							<p>Head of Development</p>
 						</div>
 					</div>
-					<div class="our_team">
+					<div class="col-md-3">
 						<div class="member_photo">
 							<img src="images/member3.png">
 							<div class="social_overlay_container">
@@ -141,7 +147,7 @@
 							<p>Graphic Designer</p>
 						</div>
 					</div>
-					<div class="our_team">
+					<div class="col-md-3">
 						<div class="member_photo">
 							<img src="images/member4.png">
 							<div class="social_overlay_container">
@@ -161,6 +167,152 @@
 				</div>
 			</div>
 		</section>
+		<section class="block dark_background">
+			<div class="container">
+				<div class="block_title">
+					<h1>Lovely work.</h1>
+				</div>
+				<div class="flex flex_column">
+					<div class="col-md-4"><img src="images/photo_work_1.png"></div>
+					<div class="col-md-4"><img src="images/photo_work_1.png"></div>
+					<div class="col-md-4"><img src="images/photo_work_1.png"></div>
+					<div class="col-md-4"><img src="images/photo_work_1.png"></div>
+					<div class="col-md-4"><img src="images/photo_work_1.png"></div>
+					<div class="col-md-4"><img src="images/photo_work_1.png"></div>	
+				</div>
+				<div class="show_more">Show more</div>
+			</div>
+		</section>
+		<section class="block ">
+			<div class="container">
+				<div class="block_title">
+					<h1>What we do</h1>
+				</div>
+				<div class="flex flex_column">
+					<div class="col-md-3 col-sm-3">
+						<div class="what_we_do_blocks">
+							<img src="images/we_do_icon_1.png">
+							<h3>Easy theme setup</h3>
+							<p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="what_we_do_blocks">
+						<img src="images/we_do_icon_2.png">
+						<h3>Pixel perfect design</h3>
+							<p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+					</div>
+					</div>
+					<div class="col-md-3">
+						<div class="what_we_do_blocks">
+						<img src="images/we_do_icon_3.png">
+						<h3>Responsive display</h3>
+							<p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="what_we_do_blocks">
+						<img src="images/we_do_icon_4.png">
+						<h3>24/7 support</h3>
+							<p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="what_we_do_blocks">
+							<img src="images/we_do_icon_1.png">
+							<h3>Easy theme setup</h3>
+							<p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+						</div>
+					</div>
+						<div class="col-md-3">
+						<div class="what_we_do_blocks">
+						<img src="images/we_do_icon_2.png">
+						<h3>Pixel perfect design</h3>
+							<p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+					</div>
+					</div>
+					<div class="col-md-3">
+					<div class="what_we_do_blocks">
+						<img src="images/we_do_icon_3.png">
+						<h3>Responsive display</h3>
+							<p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+						</div>
+					</div>
+						<div class="col-md-3">
+						<div class="what_we_do_blocks">
+						<img src="images/we_do_icon_4.png">
+						<h3>24/7 support</h3>
+							<p>Nunc mattis lorem in leo lobortis, ut venenatis justo commodo. Maecenas a justo nec velit egestas fermentum</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="block dark_background">
+			<div class="container">
+				<div class="block_title">
+					<h1>Features</h1>
+				</div>
+				<div class="flex flex_column">
+					<div class="col-md-4 features_block">
+						<!-- <div class="features_block"> -->
+								<img src="images/features_photo_1.png">
+								<h3>Product design:eames chairs</h3>
+								<p>Eames designs are certainly iconic. Everyone of us know at least two or three of their famous chairs. I would even risk saying that most of us dream about having a nice Eames.</p>
+							<!-- </div> -->
+						</div>
+						<div class="col-md-4 features_block">
+							<img src="images/features_photo_2.png">
+							<h3>Elegant and Colorful Logos</h3>
+							<p>I’ve always found logo design to be one of the most challenging things to get right. There’s so much that a logo can say about a brand without actually saying it.</p>
+						</div>
+						<div class="col-md-4 features_block">
+							<img src="images/features_photo_3.png">
+							<h3>A Showcase of Creative</h3>
+							<p>It’s always interesting to see another designer’s take on a famous website, app or even physical product. Different designers add their own personality and style.</p>
+							</div>
+						</div>
+			</div>
+		</section>
+		<section class="block">
+			<div class="container">
+				<div class="block_title">
+					<h1>Stay in touch</h1>
+				</div>
+			</div>
+			<div class="map">
+				<img src="images/map.png">
+			</div>
+			<div class="container">
+				<div class="flex flex_column">
+					<div class="col-md-6">
+						<h3>Contact information</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida.</p>
+						<p>Cras fermentum elit quis magna congue, <span>vel sodales</span> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</p>
+					</div>
+					<div class="col-md-6">
+						
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
+	<footer class="block dark_background">
+		<div class="container">
+			<div class="flex flex_column">
+			<div class="footer">
+				<p>&#169Copyright 2014 by PSD Booster. All Rights Reserved.</p>
+			</div>
+			<div class="footer social_icons_footer_container">
+				<div class="social_icons_footer"><a href=""><img src="images/facebook.png"></a></div>
+				<div class="social_icons_footer"><a href=""><img src="images/twitter.png"></a></div>
+				<div class="social_icons_footer"><a href=""><img src="images/gooogle.png"></a></div>
+				<div class="social_icons_footer"><a href=""><img src="images/dribbble.png"></a></div>
+				<div class="social_icons_footer"><a href=""><img src="images/behance.png"></a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
