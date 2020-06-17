@@ -13,6 +13,10 @@
 
 /*mobile*/
 @media(max-width: 767px) {
+	.container {
+		max-width: 95%;
+		margin: 0 auto;
+	}
 	/************We are modest**********/
 	.flex_column {
 		display: flex;
@@ -39,6 +43,12 @@
 	.features_block {
 		width: 50%;
 	}
+	.header {
+	visibility: hidden;
+		}
+	.social_icons_footer_container {
+		padding-bottom: 30px;
+}
 	}
 
 /*tablet*/

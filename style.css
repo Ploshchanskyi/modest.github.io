@@ -406,9 +406,7 @@ footer .flex {
 }
 .social_icons_footer_container {
 	display: flex;
-
-	
-}
+	}
 .social_icons_footer {
 	width: 25px;
 	height: 25px;
