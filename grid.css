@@ -24,6 +24,7 @@
 		margin-left: -15px;
 		margin-right: -15px;
 		align-items: center;
+		visibility: hidden;
 	}
 
 	.col-md-7 {
@@ -43,9 +44,9 @@
 	.features_block {
 		width: 50%;
 	}
-	.header {
+/*	.header {
 	visibility: hidden;
-		}
+		}*/
 	.social_icons_footer_container {
 		padding-bottom: 30px;
 }
