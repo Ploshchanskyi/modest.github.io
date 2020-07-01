@@ -8,6 +8,9 @@ body {
 a {
 	cursor: pointer;
 }
+div {
+	position: relative;
+}
 
 .container {
 	width: 100%;
@@ -408,7 +411,8 @@ a {
 }
 
 .col-md-6  {
-	width: 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
 	/*height: 100%;*/
 	padding-left: 15px;
 	padding-right: 15px;
@@ -464,4 +468,101 @@ footer .flex {
 	display: block;
 	width: 100%;
 	height: 100%;
+}
+
+.send_form_btn {
+	border: none;
+	outline: none;
+	position: absolute;
+	left: 0;
+	top: 165px;
+	margin-left: 15px;
+	border-radius: 5%;
+	height: 45px;
+	width: 150px;
+	text-transform: uppercase;
+	background-color: #23b7a4;
+	font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.send_form {
+	background-color: grey;
+	width: 500px;
+	padding: 30px;
+	border: 1px solid grey;
+	height: 200px;
+	position: absolute;
+	top: -50px;
+	left: 15px;
+	z-index: 100;
+
+}
+
+.send_form input {
+	margin-bottom: 20px;
+	margin-right: 20px;
+	padding-left: 20px;
+}
+.send_form textarea {
+	width:80%;
+	padding-left: 20px;
+}
+
+.show {
+	display: block;
+
+}
+.hide {
+	display: none;
+}
+
+
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.25);
+	/*display: none;*/
+}
+
+.modal_block{
+	width: 300px;
+	margin: 100px auto;
+	height: 200px;
+	border: 1px solid grey;
+	background-color: white;
+	padding:15px;
+
+}
+.form_fields {
+	margin: 10px 0;
+}
+.form_fields input {
+	width: : 100%;
+	padding: 5px;
+	height: 30px;
+}
+
+.modal_block button {
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 150px;
+	text-transform: uppercase;
+	background-color: #23b7a4;
+	font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.button_close {
+	text-align: right;
 }

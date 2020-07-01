@@ -32,8 +32,7 @@
 			<div class="col-menu-3">
 				<div class="search">
 					<input type="text" placeholder="search">
-					<div class="img-search"><!-- <input type="image" src="images/search_img.png"> -->
-					</div>
+					<div class="img-search"></div>
 				</div>
 			</div>
 		</div>
@@ -361,7 +360,15 @@
 						<p>Cras fermentum elit quis magna congue, <span>vel sodales</span> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</p>
 					</div>
 					<div class="col-md-6">
-						
+						<div class="send_form hide">
+
+							<form>
+								<input type="text" placeholder="Your Name">
+								<input type="email" name="" placeholder="Your emai">
+								<textarea placeholder="Your Message"></textarea>
+							</form>
+						</div>
+						<button class="send_form_btn" type="submit" value="submit">Send Message</button>
 					</div>
 				</div>
 			</div>
@@ -384,5 +391,17 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="modal hide">
+		<div class="modal_block">
+			<form action="">
+				<div class="button_close">X</div>
+				<h3>SUBSCRIBE NOW AND GET 10% DISCOUNT</h3>
+				<button type="submit" value="submit">SUBSCRIBE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="app.js"></script>
 </body>
 </html>
