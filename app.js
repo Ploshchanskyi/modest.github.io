@@ -14,6 +14,11 @@ function closeModal () {
 	modal.classList.remove("show");
 }
 
+function openModal () {
+	modal.classList.add("show");
+	modal.classList.remove("hide");
+}
+
 
 closeBtn.setAttribute("style", "cursor:pointer");
 closeBtn.addEventListener("click", closeModal);
@@ -26,17 +31,33 @@ modal.addEventListener("click", function(e) {
 
 
 let html = document.documentElement;
-let body = document.body;
 
-window.onscroll = function() {
-	if (html.scrollTop > 2736) {
-		modal.classList.add("show");
-		modal.classList.remove("hide");
+ function openModalByScroll() {
+	if (window.pageYOffset > html.scrollHeight/2) {
+		openModal();
+		window.removeEventListener("scroll", openModalByScroll)
 	} else {
-		modal.classList.add("hide");
-		modal.classList.remove("show");
+		closeModal()
 	}
 }
+
+window.addEventListener("scroll",openModalByScroll)
+
+
+
+
+
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  freeScroll: true,
+  wrapAround: true,
+  autoPlay: true
+
+});
+
+AOS.init();
 
 
 

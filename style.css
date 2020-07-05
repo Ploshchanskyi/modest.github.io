@@ -9,9 +9,16 @@ a {
 	cursor: pointer;
 }
 div {
-	position: relative;
+	/*position: relative;*/
 }
 
+.transition {
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
 .container {
 	width: 100%;
 	padding-left: 15px;
@@ -86,11 +93,55 @@ div {
 }
 
 .slider {
-	height: 660px;
+	
+}
+
+.sliderbg1 {
 	background-image: url(images/slider_background.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+
 }
+.sliderbg2 {
+	background-image: url(images/slider2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.sliderbg3 {
+	background-image: url(images/slider3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.sliderbg4 {
+	background-image: url(images/slider4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.carousel-cell {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	font-size: 50px;
+	color: white;
+	margin-top: -80px;
+	padding-top: 80px
+
+}
+
+.flickity-page-dots {
+	bottom: 25px;
+}
+.dot {
+	background: white !important;
+}
+
+
 
 .header {
 	background-color: #1d2126;
@@ -310,6 +361,7 @@ div {
 	margin: 30px auto;
 	font-size: 14px;
 }
+
 .cross_overlay {
 	position: absolute;
 	width: 100%;
@@ -325,7 +377,7 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
 	}
-	.cross_overlay a {
+.cross_overlay a {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -337,7 +389,7 @@ div {
 	position: absolute;
 	bottom: 33px;
 	background-color: #292f36;
-    
+
 }
 .text_overlay h3 {
 	font-size: 18px;
@@ -352,6 +404,7 @@ div {
 }
 .lovely_work:hover .overlay_container {
 	visibility: visible;
+
 }
 
 
@@ -565,4 +618,16 @@ footer .flex {
 
 .button_close {
 	text-align: right;
+}
+
+#contact .col-md-6 {
+	position: relative;
+}
+
+.flickity-prev-next-button.previous {
+	left: 105px;
+}
+
+.flickity-prev-next-button.next {
+	right: 105px;
 }

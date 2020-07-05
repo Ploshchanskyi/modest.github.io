@@ -5,6 +5,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="aos-master/dist/aos.css">
+	<link rel="stylesheet" href="flickity-docs/flickity.css" media="screen">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="grid.css">
 	<link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -40,7 +42,11 @@
 	</div>
 	<main>
 		<section class="slider">
-			<div class="container">
+			<div class="main-carousel">
+				  <div class="carousel-cell sliderbg1">Nice picture</div>
+				  <div class="carousel-cell sliderbg2">One more nice picture</div>
+				  <div class="carousel-cell sliderbg3">Another nice picture</div>
+				  <div class="carousel-cell sliderbg4">One more...</div>
 			</div>
 		</section>
 		<section class="we_are block" id="work">
@@ -95,7 +101,7 @@
 				<h1>Meet the team.</h1>
 				</div>
 				<div class="flex flex_column">
-					<div class="col-md-3">
+					<div class="col-md-3" data-aos="zoom-in-right">
 						<div class="member_photo">
 							<img src="images/member1.png">
 							<div class="social_overlay_container">
@@ -112,7 +118,7 @@
 							<p>CEO and Founder</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3" data-aos="zoom-in-up">
 						<div class="member_photo">
 							<img src="images/member2.png">
 							<div class="social_overlay_container">
@@ -129,7 +135,7 @@
 							<p>Head of Development</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3" data-aos="zoom-in-down">
 						<div class="member_photo">
 							<img src="images/member3.png">
 							<div class="social_overlay_container">
@@ -146,7 +152,7 @@
 							<p>Graphic Designer</p>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3" data-aos="zoom-in-left">
 						<div class="member_photo">
 							<img src="images/member4.png">
 							<div class="social_overlay_container">
@@ -172,7 +178,7 @@
 					<h1>Lovely work.</h1>
 				</div>
 				<div class="flex flex_column">
-					<div class="col-md-4 lovely_work">
+					<div class="col-md-4 lovely_work" data-aos="flip-left">
 						<img src="images/photo_work_1.png">
 						<div class="overlay_container">
 						<div class="cross_overlay">
@@ -185,7 +191,7 @@
 						</div>
 						</div>
 					</div>
-					<div class="col-md-4 lovely_work">
+					<div class="col-md-4 lovely_work" data-aos="flip-left">
 						<img src="images/photo_work_2.png">
 						<div class="overlay_container">
 						<div class="cross_overlay">
@@ -198,7 +204,7 @@
 						</div>
 						</div>
 					</div>
-					<div class="col-md-4 lovely_work">
+					<div class="col-md-4 lovely_work" data-aos="flip-left">
 						<img src="images/photo_work_3.png">
 						<div class="overlay_container">
 						<div class="cross_overlay">
@@ -211,7 +217,7 @@
 						</div>
 						</div>
 					</div>
-					<div class="col-md-4 lovely_work">
+					<div class="col-md-4 lovely_work" data-aos="flip-left">
 						<img src="images/photo_work_4.png">
 						<div class="overlay_container">
 						<div class="cross_overlay">
@@ -224,7 +230,7 @@
 						</div>
 						</div>
 					</div>
-					<div class="col-md-4 lovely_work">
+					<div class="col-md-4 lovely_work" data-aos="flip-left">
 						<img src="images/photo_work_5.png">
 						<div class="overlay_container">
 						<div class="cross_overlay">
@@ -237,7 +243,7 @@
 						</div>
 						</div>
 					</div>
-					<div class="col-md-4 lovely_work">
+					<div class="col-md-4 lovely_work" data-aos="flip-left">
 						<img src="images/photo_work_6.png">
 						<div class="overlay_container">
 						<div class="cross_overlay">
@@ -361,10 +367,10 @@
 					</div>
 					<div class="col-md-6">
 						<div class="send_form hide">
-
+						
 							<form>
 								<input type="text" placeholder="Your Name">
-								<input type="email" name="" placeholder="Your emai">
+								<input type="email" name="" placeholder="Your email">
 								<textarea placeholder="Your Message"></textarea>
 							</form>
 						</div>
@@ -398,10 +404,14 @@
 				<div class="button_close">X</div>
 				<h3>SUBSCRIBE NOW AND GET 10% DISCOUNT</h3>
 				<button type="submit" value="submit">SUBSCRIBE</button>
-				</div>
 			</form>
 		</div>
 	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="flickity-docs/flickity.pkgd.min.js"></script>
+	<script type="text/javascript" src="flickity-docs/flickity.pkgd.js"></script>
+	<script src="aos-master/dist/aos.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
