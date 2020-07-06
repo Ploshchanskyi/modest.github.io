@@ -624,10 +624,3 @@ footer .flex {
 	position: relative;
 }
 
-.flickity-prev-next-button.previous {
-	left: 105px;
-}
-
-.flickity-prev-next-button.next {
-	right: 105px;
-}

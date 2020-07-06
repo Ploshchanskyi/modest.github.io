@@ -53,7 +53,8 @@ $('.main-carousel').flickity({
   contain: true,
   freeScroll: true,
   wrapAround: true,
-  autoPlay: true
+  autoPlay: true,
+  
 
 });
 

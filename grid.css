@@ -76,6 +76,11 @@
 	.social_icons_footer_container {
 		padding-bottom: 30px;
 }
+
+	.flickity-prev-next-button {
+	height: 22px;
+	width: 22px;
+}
 	}
 
 /*tablet*/
@@ -135,6 +140,11 @@
 	.features_block {
 		width: 60%;
 	}
+
+	.flickity-prev-next-button {
+	height: 22px;
+	width: 22px;
+}
 }
 
 
@@ -189,6 +199,14 @@
 	}
 	.features_block {
 		width: 29%;
+}
+
+.flickity-prev-next-button.previous {
+	left: 105px;
+}
+
+.flickity-prev-next-button.next {
+	right: 105px;
 }
 }
 /*desktop*/
@@ -252,4 +270,11 @@
 
 }
 
+.flickity-prev-next-button.previous {
+	left: 105px;
+}
+
+.flickity-prev-next-button.next {
+	right: 105px;
+}
 }
