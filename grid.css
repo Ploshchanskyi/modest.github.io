@@ -81,6 +81,10 @@
 	height: 22px;
 	width: 22px;
 }
+
+.carousel-cell {
+	font-size: 20px;
+}
 	}
 
 /*tablet*/
@@ -145,6 +149,10 @@
 	height: 22px;
 	width: 22px;
 }
+
+.carousel-cell {
+	font-size: 30px;
+}
 }
 
 
@@ -207,6 +215,10 @@
 
 .flickity-prev-next-button.next {
 	right: 105px;
+}
+
+.carousel-cell {
+	font-size: 50px;
 }
 }
 /*desktop*/
@@ -276,5 +288,8 @@
 
 .flickity-prev-next-button.next {
 	right: 105px;
+}
+.carousel-cell {
+	font-size: 50px;
 }
 }
