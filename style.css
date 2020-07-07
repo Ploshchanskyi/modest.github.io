@@ -136,10 +136,35 @@ div {
 
 .flickity-page-dots {
 	bottom: 25px;
+	position: absolute;
+	right: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 1;
 }
 .dot {
+	
+	opacity: 1 !important;
+	background: none !important;
+	border: 2px solid white;
+}
+
+.dot.is-selected {
 	background: white !important;
 }
+
+.flickity-prev-next-button.previous {
+	display: none; 
+}
+
+.flickity-prev-next-button.next {
+	display: none;
+}
+
+
 
 
 
